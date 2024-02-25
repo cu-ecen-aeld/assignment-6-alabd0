@@ -4,3 +4,6 @@
 [submodule "assignments-3-and-later-alabd0"]
 	path = assignments-3-and-later-alabd0
 	url = https://github.com/cu-ecen-aeld/assignments-3-and-later-alabd0.git
+[submodule "poky"]
+	path = poky
+	url = https://git.yoctoproject.org/poky
