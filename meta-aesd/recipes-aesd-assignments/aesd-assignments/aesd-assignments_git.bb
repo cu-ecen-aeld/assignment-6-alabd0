@@ -27,9 +27,9 @@ TARGET_LDFLAGS += "-pthread -lrt"
 inherit update-rc.d
 
 
-# References class which handles install scripts
+# References class which handles install scripts.
 INITSCRIPT_PACKAGES = "${PN}"
-# flag your package as one which uses init scripts
+# flag your package as one which uses init scripts.
 
 INITSCRIPT_NAME:${PN} = "aesd-server-init"
 
